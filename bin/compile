@@ -2,4 +2,7 @@
 
 echo "-----> Minecraft Server app detected"
 
+# Evaluate port for server.properties
+echo -e "$(eval "echo -e \"`<server.properties`\"")" > server.properties
+
 # Need to install java and dropbox

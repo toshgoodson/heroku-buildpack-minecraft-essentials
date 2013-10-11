@@ -2,6 +2,9 @@
 
 echo "-----> Minecraft Server app detected"
 
+# change to the the BUILD_DIR ($1)
+cd $1
+
 # Evaluate port for server.properties
 echo -e "$(eval "echo -e \"`<server.properties`\"")" > server.properties
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # this pack is valid for apps with a minecraft_server.jar in the root
 if [ -f $1/minecraft_server.jar ]; then

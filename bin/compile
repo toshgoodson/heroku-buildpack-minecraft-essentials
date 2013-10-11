@@ -1,9 +1,5 @@
-#!/bin/sh
-
-indent() {
-  sed -u 's/^/       /'
-}
+#!/bin/bash
 
 echo "-----> Minecraft Server app detected"
 
-# There's not much to do...
+# Need to install java and dropbox

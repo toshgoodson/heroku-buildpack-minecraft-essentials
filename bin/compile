@@ -1,0 +1,9 @@
+#!/bin/sh
+
+indent() {
+  sed -u 's/^/       /'
+}
+
+echo "-----> Minecraft Server app detected"
+
+# There's not much to do...

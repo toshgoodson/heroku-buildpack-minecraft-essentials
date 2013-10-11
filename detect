@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# this pack is valid for apps with a minecraft_server.jar in the root
+if [ -f $1/minecraft_server.jar ]; then
+  echo "Minecraft Server"
+  exit 0
+else
+  exit 1
+fi
